@@ -157,14 +157,17 @@ footer {
 
 .card-title {
     margin: 0;
+    padding-top: 0.5em;
     color: white;
     text-decoration: none;
+    font-weight: lighter;
+    font-size: 1.5em;
 }
 
 .card:hover {
     cursor: pointer;
     background-color: rgb(188, 188, 238);
-    transform: scale(1.03);
+    transform: scale(1.045);
     transition: 0.3s;
 }
 
@@ -172,9 +175,10 @@ footer {
     background-color: rgb(19, 20, 20);
     color: white;
     text-align: center;
-    padding: 0.8em;
+    padding: 0;
     align-self: auto;
     border-radius: 10px 10px 0 0;
+    padding: 0.5em;
 }
 
 .col {
@@ -184,7 +188,8 @@ footer {
 
 .card-img-top {
     width: 290px;
-    height: 290px;
+    height: 240px;
+    margin: auto 1.5em;
 }
 
 .container-fluid {

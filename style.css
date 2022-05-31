@@ -6,18 +6,21 @@
 
 body {
     background-color: whitesmoke;
+    min-height: 1000px;
 }
 
 .banner {
     font-size: xx-large;
     font-style: italic;
     text-align: center;
+    padding-top: 0.2em;
     padding-bottom: 0.2em;
     padding-left: 0.7em;
     padding-right: 0.7em;
     color: white;
     background-color: #2e3138;
     min-width: 900px;
+    height: 2em;
 }
 
 .make-your-selection {
@@ -58,8 +61,8 @@ body {
 footer {
     display: inline;
     text-align: right;
-    position: fixed;
     bottom: 0;
+    position: fixed;
     width: 100%;
 }
 
